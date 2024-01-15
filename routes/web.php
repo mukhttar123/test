@@ -15,3 +15,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function() {
     return view('lalala');
 });
+
+Route::get('/umar', function() {
+    return view('umar');
+});
+
+Route::get('/portofolio', function(){
+    return view('portofolio');
+});
+
+Route::get('/sekolah-miskin', function(){
+    return view('sekolah-miskin');
+});
